@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Fascinate+Inline&family=Martian+Mono:wght@300&family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap");
+
+
+body{
+    background-color: #B8860B;
+}
+
+h1{     
+    font-family: Martian Mono;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+
+
+}
+cite{
+    text-decoration: underline;
+}
+.intro{
+    text-align: center;
+}
+.latin{
+    font-family: caramel;
+    font-size: 3em;
+}
+.español{
+    text-align: right;
+    font-family: caramel;
+    color: white;
+    font-size: 2.5em;
+}

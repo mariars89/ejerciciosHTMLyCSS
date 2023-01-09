@@ -1,0 +1,50 @@
+body{
+    background-color:  #fdfbf1;
+
+}
+
+h1{
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    background-color: burlywood;
+    color: white;
+}
+
+
+h3{
+    background-color: burlywood;
+    color: white;
+}
+
+ul{
+    list-style: square;
+  }
+
+.circulo
+{
+    list-style: circle;
+}
+
+dl{
+    background-color: #f0e7db;
+    border-left: 5px solid burlywood ;
+    
+  }
+
+dt{
+    font-variant: small-caps;
+    font-weight: bolder;
+  }
+li::first-letter
+{
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+ol {
+        list-style-type: upper-roman;
+   }
