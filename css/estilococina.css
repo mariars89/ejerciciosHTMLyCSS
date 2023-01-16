@@ -4,27 +4,20 @@ body{
 }
 
 h1{
-    background-color: burlywood;
     text-align: center;
-    color: white;
 }
 
-h2{
+h1, h2, h3{
     background-color: burlywood;
     color: white;
 }
 
-
-h3{
-    background-color: burlywood;
-    color: white;
-}
 
 ul{
     list-style: square;
   }
 
-.circulo
+ul ul
 {
     list-style: circle;
 }
@@ -46,5 +39,5 @@ li::first-letter
 }
 
 ol {
-        list-style-type: upper-roman;
+        list-style-type: lower-roman;
    }

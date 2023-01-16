@@ -6,42 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rae-Informática CSS</title>
     <style>
-
-      h2{
-        color: #0001FF;
-      }
-
-      p{
-        color:#178A19;
-        background-color: #DCDCDC ; 
-      }
-      abbr
-      {
-        color:#7FBDF5;
-      }
-
-      body
-      {
-        border: 3px solid #C26F6F;
+        
+      body{
+        font-family: candara, sans-serif;
+        border: 1px solid brown;
         width: 60%;
-        margin-right: auto;
-        margin-left: auto ;
-        padding-left:1em;
+        margin: auto;
+        padding-left:0 15px 0;
 
       }
-      .informatica
-      {
+      
+      strong{
+        color: blue;
+        font-size: 1.25em;
+      }
+
+      p.etimologia{
+        background-color: gainsboro;
+        color: green;
+      }
+
+      abbr{
+        color:cornflowerblue;
+      }
+
+      .rojo{
         color: red ;
         font-weight: bold;
       }
+
       a{
         color: blue;
         font-weight: bold;
+        text-decoration: none;
       }
-      .pirata
-      {
-        color: blue;
-        font-weight: bold;
+      
+      .subrayado{
+        text-decoration: underline;
 
       }
 
@@ -52,18 +53,22 @@
 </head>
 <body>
 
-    <h2>informático, ca</h2>
-<p>Del <abbr title="francés">fr.</abbr> informatique.</p>
+  <dl>
 
+    <dt><strong>informático, ca</strong></dt>
 
-<ol>
-  <li><abbr title="adjetivo">adj.</abbr> Perteneciente o relativo a la <span class="informatica">informática.</span></li>
-  <li><abbr title="adjetivo">adj.</abbr> Que trabaja o investiga en <span class="informatica">informática.</span> 
-    <abbr title="Aplicado a persona">Apl. a pers.,</abbr> <abbr title="usado también como sustantivo">u. t. c. s.</abbr> </li>
-  <li><abbr title="nombre femenino">f.</abbr> Conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información por medio de computadoras.</li>
-</ol> 
+    <p class="etimologia">Del <abbr title="francés">fr.</abbr> <em>informatique.</em></p>
 
-<span class="pirata"> pirata </span> <a href="https://dle.rae.es/pirata#FRfUbRl">informático, ca</a>
+    <dd><abbr title="adjetivo">adj.</abbr> Perteneciente o relativo a la <span class="rojo"> informática. </span> </dd>
+
+    <dd><abbr title="adjetivo">adj.</abbr> Que trabaja o investiga en <span class="rojo">informática.</span> <abbr title="Aplicado a persona">Apl. a pers.,</abbr> <abbr title="usado también como sustantivo">u. t. c. s.</abbr> </dd>
+    
+    <dd><abbr title="nombre femenino">f.</abbr> Conjunto de conocimientos científicos y técnicas que hacen posible el tratamiento automático de la información por medio de computadoras.</dd>
+
+  </dl>
+
+<p><a href="https://dle.rae.es/pirata#FRfUbRl">pirata <span class="subrayado"> informático, ca</span></a></p>
+
 
 
     
