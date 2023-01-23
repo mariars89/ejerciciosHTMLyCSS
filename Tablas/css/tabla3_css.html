@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla 3 Css</title>
+
+    <style>
+
+        table
+        {
+            border: 1px solid black;
+            border-spacing: 10px;
+            background-color: #F5F5DC;
+            width: 300px;         
+        }
+        
+        td
+        {
+            border: 1px solid black;
+            background-color: #7FFFD4;
+        }
+        
+      .hide
+        {
+            empty-cells: hide;    
+             
+        }
+        .show
+        {
+            empty-cells: show;
+        }
+
+    </style>
+</head>
+<body>
+
+    <p>   
+    <table class="show">
+        <thead>
+            <tr>
+                <td width="150"></td>
+                <td width="150">Copas</td>
+            </tr>
+            
+            <tr>
+                <td >Bastos</td>
+                <td>Espadas</td>
+            </tr>
+
+            <tr>
+                <td>Oros</td>
+                <td></td>
+            </tr>
+        </thead>
+    </table>
+    </p>
+
+    <p>   
+    <table class="hide">
+        <thead>
+            <tr>
+                <td class="empty" width="150"></td>
+                <td width="150">Copas</td>
+            </tr>
+            
+            <tr>
+                <td >Bastos</td>
+                <td>Espadas</td>
+            </tr>
+
+            <tr>
+                <td>Oros</td>
+                <td class="empty" width="150"></td>
+            </tr>
+        </thead>
+    </table>
+    </p>
+    
+</body>
+</html>

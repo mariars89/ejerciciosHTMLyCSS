@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla 1 Css</title>
+
+    <style>
+
+        table.rojo
+        {
+            border: 2px solid red;
+            border-collapse: collapse;
+               
+        }
+        td
+        {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        table.verde 
+        {
+            border: 2px solid green;
+            border-collapse: separate;
+               
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+ <p>   <table class="rojo">
+        <thead>
+            <tr>
+             <th colspan="2">border-collapse: collapse</th>
+            </tr>
+            <tr>
+             <td>Borde de tabla rojo</td>
+             <td>Borde de celda negro</td>
+            </tr>
+        </thead>
+    </table></p>
+
+    <p><table class="verde">
+        <thead>
+            <tr>
+             <th colspan="2">border-collapse: separate</th>
+            </tr>
+            <tr>
+             <td>Borde de tabla verde</td>
+             <td>Borde de celda negro</td>
+            </tr>
+        </thead>
+    </table></p>
+    
+</body>
+</html>
