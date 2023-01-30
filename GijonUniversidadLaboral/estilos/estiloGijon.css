@@ -192,6 +192,7 @@ tbody tr:nth-child(odd)
  ul
  {
     font-weight: bolder;
+    list-style: square;
  }
  
  .logoGijon
