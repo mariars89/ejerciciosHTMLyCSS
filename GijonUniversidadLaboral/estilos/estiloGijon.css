@@ -1,38 +1,57 @@
-html 
+body
 {
     font-size: 18px; 
     font-family: "Open Sans", sans-serif; 
+    background-color: #f6f6f6;
+    margin:5%
 }
 
 h1
 {
-    color: #BD0003;
+    color: white;
     text-transform:uppercase;
     text-align: center;
     margin: 0;
     text-shadow: 3px 3px 1px black;
     font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#inicioGijon
+{
+    color:#BD0003;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 h2
 {
     background-color:#BD0003;
     color:white;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 h3
 {
     background-color: #fd7b7b;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
-h4
-{
-   text-align: center;
-}
-
-
-.botonIzquierdo
+.botonVolver
 {
    color:  white;
    border-radius: 10px;
@@ -43,55 +62,23 @@ h4
    border:#e06377 3px solid;
    font-weight: bolder ;
    margin-right: 90%;
- 
+ }
 
-}
-
-body
-{
-    background-color: f6f6f6;
-    margin:5%;
-}
-
-th
-{
-    background-color: #EAECF0;
-    border: 1px solid  #ccc;
-}
-td
-{
-   border: 1px solid  #ccc;
-}
-
-table
-{
-   margin: auto;
-   border-collapse: collapse;
-   width: 20%;
-}
-
-tfoot
-{
-    text-align: center;
-}
-
-tbody tr:nth-child(even) 
-{ 
-    background :#FFFFCC;
-}
-        
-tbody tr:nth-child(odd) 
-{ 
-    background: #FF6400;
-            
-}
-
- footer
+ .indice
  {
-    text-align: right;
-    color: white;
-    background-color: black;
- } 
+    margin-right: 75%;
+    margin-left: 0%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+    background-color: #f9d5e5;
+    border: 3px dotted #c83349;
+ }
+
+ img
+ {
+    border: 3px dotted black;
+ }
    
  img.izquierda
  {
@@ -104,17 +91,13 @@ tbody tr:nth-child(odd)
    
  }
 
- img
- {
-    border: 3px dotted black;
- }
  img.centrado
  {
     margin-left: 4.5%;
     margin-right: 4.5%;
  }
 
- .centradoHidro
+ img.centradoHidro
  {
    margin-left: 35%;
    margin-right: 35%;
@@ -137,61 +120,103 @@ tbody tr:nth-child(odd)
 .derechaLaboral
 {
     margin-right: 5%;
-
 }
+
+ table
+{
+   margin: auto;
+   border-collapse: collapse;
+   width: 20%;
+}
+
+th
+{
+    background-color: #EAECF0;
+    border: 1px solid  #ccc;
+}
+
+td
+{
+   border: 1px solid  #ccc;
+}
+
+caption
+{
+   font-weight: bolder;
+   color: #FF6400;
+}
+
+tfoot
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #FF6400;
+ }
+
+tbody tr:nth-child(even) 
+{ 
+    background :#FFFFCC;
+}
+        
+tbody tr:nth-child(odd) 
+{ 
+    background: #FF6400;          
+}
+
+ footer
+ {
+    text-align: right;
+    color: white;
+    background-color: black;
+ } 
 
  a
  {
     color:#c83349;
     text-decoration: none;
-    font-weight: bolder;
-   
- }
-
- ol
- {
-    color:#c83349;
-    font-weight: bolder;
-
- }
- 
- ul
- {
-    font-weight: bolder;
-
- }
- 
- 
- .indice
- {
-    margin-right: 75%;
-    margin-left: 0%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: start;
-    background-color: #f9d5e5;
-    border: 3px dotted #c83349;
- }
- .derecha2
- {
-    margin-left: 93%;
- }
-
- .derecha2Laboral
- {
-    margin-left: 91%;
+    font-weight: bolder; 
  }
 
  a:hover 
  {
     background-color: #eeac99;
     border:#e06377 3px solid;
-   
+ }
+
+ ol
+ {
+    color:#c83349;
+    font-weight: bolder;
  }
  
+ ul
+ {
+    font-weight: bolder;
+ }
+ 
+ .logoGijon
+ {
+    margin-left: 93%;
+ }
+
+ .logoLaboral
+ {
+    margin-left: 91%;
+ }
+
 p.importante::first-letter
 {
     font-size: 2em;
+}
+
+.headerGijon
+{
+   background-image: url('../imagenes/header.jpg');    
+}
+
+.headerLaboral
+{
+   background-image: url('../imagenes/headerLaboral.jpg');    
 }
 
 
