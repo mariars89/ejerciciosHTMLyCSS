@@ -50,6 +50,10 @@ h3
     font-family: 'Times New Roman', Times, serif;
     
 }
+h4
+{
+   text-align: center;
+}
 
 .botonVolver
 {
@@ -183,6 +187,30 @@ tbody tr:nth-child(odd)
     border:#e06377 3px solid;
  }
 
+ .centrado:hover
+{
+   transform: scale(1.3);
+}
+
+.centradoLaboral:hover
+{
+   transform: scale(1.3);
+}
+
+.galeria:hover
+{
+   transform: scale(1.2);
+}
+.izquierda:hover
+{
+   transform: scale(1.2);
+}
+
+.derecha:hover
+{
+   transform: scale(1.2);
+}
+
  ol
  {
     color:#c83349;
@@ -217,8 +245,12 @@ p.importante::first-letter
 
 .headerLaboral
 {
-   background-image: url('../imagenes/headerLaboral.jpg');    
+   background-image: url('../imagenes/headerLaboral\ .jpg');    
 }
+
+
+
+
 
 
  
