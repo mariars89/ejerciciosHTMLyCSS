@@ -17,24 +17,6 @@ h1
     font-family: 'Times New Roman', Times, serif;
 }
 
-#inicioGijon
-{
-    color:#BD0003;
-    text-transform:uppercase;
-    text-align: center;
-    margin: 0;
-    text-shadow: 3px 3px 1px black;
-    font-size: 70px;
-    font-family: 'Times New Roman', Times, serif;;
-    text-transform:uppercase;
-    text-align: center;
-    margin: 0;
-    text-shadow: 3px 3px 1px black;
-    font-size: 70px;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-
 h2
 {
     background-color:#BD0003;
@@ -50,9 +32,80 @@ h3
     font-family: 'Times New Roman', Times, serif;
     
 }
+
 h4
 {
    text-align: center;
+}
+
+#inicioGijon
+{
+    color:#BD0003;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+ol
+{
+   color:#c83349;
+   font-weight: bolder;
+}
+
+ul
+{
+   font-weight: bolder;
+   list-style: square;
+}
+
+p.importante::first-letter
+{
+    font-size: 2em;
+}
+
+table
+{
+   margin: auto;
+   border-collapse: collapse;
+   width: 20%;
+}
+
+th
+{
+    background-color: #EAECF0;
+    border: 1px solid  #ccc;
+}
+
+td
+{
+   border: 1px solid  #ccc;
+}
+
+caption
+{
+   font-weight: bolder;
+   color: #FF6400;
+}
+
+tfoot
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #FF6400;
+ }
+
+tbody tr:nth-child(even) 
+{ 
+    background :#FFFFCC;
+}
+        
+tbody tr:nth-child(odd) 
+{ 
+    background: #FF6400;          
 }
 
 .botonVolver
@@ -115,65 +168,6 @@ h4
 
  }
 
- .izquierdaLaboral
- {
-    margin-left: 20%;
-
- }
-
-.derechaLaboral
-{
-    margin-right: 5%;
-}
-
- table
-{
-   margin: auto;
-   border-collapse: collapse;
-   width: 20%;
-}
-
-th
-{
-    background-color: #EAECF0;
-    border: 1px solid  #ccc;
-}
-
-td
-{
-   border: 1px solid  #ccc;
-}
-
-caption
-{
-   font-weight: bolder;
-   color: #FF6400;
-}
-
-tfoot
-{
-    text-align: center;
-    font-weight: bolder;
-    color: #FF6400;
- }
-
-tbody tr:nth-child(even) 
-{ 
-    background :#FFFFCC;
-}
-        
-tbody tr:nth-child(odd) 
-{ 
-    background: #FF6400;          
-}
-
- footer
- {
-    text-align: right;
-    color: white;
-    background-color: black;
- } 
-
  a
  {
     color:#c83349;
@@ -210,18 +204,6 @@ tbody tr:nth-child(odd)
 {
    transform: scale(1.2);
 }
-
- ol
- {
-    color:#c83349;
-    font-weight: bolder;
- }
- 
- ul
- {
-    font-weight: bolder;
-    list-style: square;
- }
  
  .logoGijon
  {
@@ -233,11 +215,6 @@ tbody tr:nth-child(odd)
     margin-left: 91%;
  }
 
-p.importante::first-letter
-{
-    font-size: 2em;
-}
-
 .headerGijon
 {
    background-image: url('../imagenes/header.jpg');    
@@ -247,6 +224,13 @@ p.importante::first-letter
 {
    background-image: url('../imagenes/headerLaboral\ .jpg');    
 }
+
+footer
+{
+   text-align: right;
+   color: white;
+   background-color: black;
+} 
 
 
 
