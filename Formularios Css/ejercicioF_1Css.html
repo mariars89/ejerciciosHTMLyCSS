@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1 CSS</title>
+
+    <style>
+        body
+        {
+            background-color: bisque;
+        }
+
+        h2
+        {
+            color:brown;
+        }
+        form
+        {
+            border:2px solid brown;
+            width: 60%;
+            padding: 10px;
+        }
+
+        
+
+        input[type=text]
+        {
+            width: 70%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid brown;
+
+        }
+        .etiqueta,label
+        {
+            font-size: 1.3em;
+            color: brown;
+        }
+
+        input[type=submit],input[type=reset]
+        {
+            background-color: brown;
+            color: white;
+            margin: 4px 2px;
+            padding: 8px 16px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+  
+        <h2>Datos de cliente</h2>
+    
+    <form action="#" method="get">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br>
+      <label for="dni">NIF::</label><br>
+      <input type="text" id="dni" name="dni"><br><br>
+    
+      <p>Tipo de Habitación:</p>
+      <input type="radio" id="html" name="tip_habitacion" value="individual">
+      <label for="individual">Individual</label><br>
+      
+      <input type="radio" id="css" name="tip_habitacion" value="doble">
+      <label for="doble">Doble</label><br>
+      
+      <p>Opciones:</p>
+      <input type="checkbox" id="desayuno" name="desayuno" value="desayuno">
+      <label for="desayuno"> Desayuno en la habitación</label><br>
+      
+      <input type="checkbox" id="jacuzzi" name="jazucci" value="jacuzzi">
+      <label for="jacuzzi">Jacuzzi</label><br>
+    
+      <input type="checkbox" id="wifi" name="wifi" value="wifi">
+      <label for="wifi">Wi-Fi</label><br>
+      
+    
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </p>
+    
+    
+    </form> 
+    
+
+    
+    
+</body>
+</html>
