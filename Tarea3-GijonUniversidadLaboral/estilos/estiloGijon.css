@@ -1,0 +1,296 @@
+body
+{
+    font-size: 18px; 
+    font-family: "Open Sans", sans-serif; 
+    background-color: #f6f6f6;
+    margin: 5%;
+}
+.aside
+{ 
+   width: 25%;  /*Diseño líquido o fluido.*/
+   float: right;
+   background-color: #f9d5e5;
+}
+
+main
+{
+   float: right;  
+   width: 75%;   /*Diseño líquido o fluido.*/
+}
+
+nav 
+{
+   text-align: center;
+   background-color: #f9d5e5;
+   font-size: 20px;
+   padding: 5px; 
+   width: 98% auto;
+}
+
+footer
+{
+   text-align: right;
+   color: white;
+   background-color: black;
+   clear: both;
+}
+
+header.headerGijon
+{
+   background-image: url('../imagenes/header.jpg');    
+}
+
+header.headerLaboral
+{
+   background-image: url('../imagenes/headerLaboral\ .jpg');    
+} 
+
+/* En las pantallas de 992 px de ancho o menos, el color de fondo es tan */
+@media screen and (max-width: 992px) 
+{
+  body 
+  {
+    background-color: tan;
+    color: white;
+  }
+}
+
+/* En las pantallas de 1024 px de ancho o menos, el footer tiene color de fondo rojo, 
+color de letra blanco y tamaño 2em */
+@media screen and (max-width: 1024px){
+   footer
+   {
+       background-color: red;
+       color: white;
+       font-size: 1.5em;
+   }
+}
+
+/************************************************************************************/
+h1
+{
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2
+{
+    background-color:#BD0003;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+h3
+{
+    background-color: #fd7b7b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+nav a
+{
+    color:#c83349;
+    padding: 15px;
+    font-weight: bolder; 
+    text-decoration: none 
+}
+
+nav a:hover 
+{
+    background-color: #eeac99;
+    border-bottom:#e06377 2px solid;
+}
+
+a:hover
+{
+   color:#c83349;
+   font-weight: bolder;
+   text-decoration: none;
+}
+a{
+   color:#e06377;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+.galeria:hover
+{
+   transform: scale(1.2);
+}
+
+.imagenMain
+{
+   height: auto;
+   width: 85%;
+   margin: 15px;
+}
+
+.imagenMainLaboral
+{ 
+   width: 60%;
+   margin: 15px;
+   margin-left: 20%;
+   margin-right: 45%;
+}
+
+img
+{
+   border: 3px dotted black;
+}
+
+img.centradoHidro
+{
+  margin-left: 35%;
+  margin-right: 35%;
+ }
+
+.centradoLaboral
+ {
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+
+ #galeriaAside
+{
+   text-align: center;
+   float: left;
+}
+
+.centradoImg
+{
+  margin-left: 15%;
+  margin-right: 20%;
+
+}
+ol
+{
+   color:#c83349;
+   font-weight: bolder;
+}
+
+ul
+{
+   font-weight: bolder;
+   list-style: square;
+}
+
+#inicioGijon
+{
+    color:#BD0003;
+    text-transform:uppercase;
+    text-align: center;
+    margin: 0;
+    text-shadow: 3px 3px 1px black;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+p.importante::first-letter
+{
+    font-size: 2em;
+}
+
+ /*formulario*******************************************************/
+legend
+{
+   background-color:#c83349;
+   color: white;
+   font-weight: bold;
+   padding: 5px 20px;
+   letter-spacing: 5px;
+   font-size: 70%;
+ }
+ 
+ label
+ {
+   color:#BD0003;;
+ }
+ 
+ input[type=submit],input[type=reset]
+{
+   background-color: brown;
+   color: white;
+   margin: 4px 2px;
+   padding: 8px 16px;
+}
+
+fieldset
+{
+   border:2px solid brown;
+   padding: 20px;
+}
+
+select
+{
+   background-color: #fd7b7b;     
+}
+
+/*****TABLA***********************************************************************************/
+table
+{
+   margin: auto;
+   border-collapse: collapse;
+   width: 20%;
+}
+
+th
+{
+    background-color: #EAECF0;
+    border: 1px solid  #ccc;
+}
+
+td
+{
+   border: 1px solid  #ccc;
+}
+
+caption
+{
+   font-weight: bolder;
+   color: #FF6400;
+}
+
+tfoot
+{
+    text-align: center;
+    font-weight: bolder;
+    color: #FF6400;
+ }
+
+tbody tr:nth-child(even) 
+{ 
+    background :#FFFFCC;
+}
+        
+tbody tr:nth-child(odd) 
+{ 
+    background: #FF6400;          
+}
+/********************************************************************************************************/
+
+
+    
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
