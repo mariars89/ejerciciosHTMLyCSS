@@ -178,7 +178,7 @@ if ($nombreOk && $apellidosOk && $telefonoOk && $emailOk && $num_personasOk && $
     print "\n";
     if ($tipo_visita == "guiada") {
         print "  <p>Es una <strong>visita guiada</strong>.</p>\n";
-    } elseif ($estadoCivil == "libre") {
+    } elseif ($tipo_visita == "libre") {
         print "  <p>Es una <strong>visita libre</strong>.</p>\n";
     } else {
         print "  <p>El tipo de visita no es <strong>ni guiada ni libre</strong>.</p>\n";

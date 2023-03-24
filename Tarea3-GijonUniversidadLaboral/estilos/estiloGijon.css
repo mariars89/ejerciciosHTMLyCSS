@@ -208,15 +208,27 @@ legend
  
  label
  {
-   color:#BD0003;;
+   color:#BD0003;
+ }
+ label.negrita
+ {
+   font-weight: bolder;
  }
  
  input[type=submit],input[type=reset]
 {
-   background-color: brown;
+   background-color: #BD0003;
    color: white;
    margin: 4px 2px;
-   padding: 8px 16px;
+   padding: 8px 16px; 
+}
+input[type=submit]:hover
+{
+   background: #fd7b7b;
+}
+input[type=reset]:hover
+{
+   background: #fd7b7b;
 }
 
 fieldset
@@ -228,6 +240,10 @@ fieldset
 select
 {
    background-color: #fd7b7b;     
+}
+#botonF
+{
+   text-align: center;
 }
 
 /*****TABLA***********************************************************************************/
